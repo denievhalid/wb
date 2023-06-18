@@ -1,0 +1,18 @@
+.header {
+  height: 120px;
+  background: linear-gradient(90deg, #cb11ab 0%, #481173 100%);
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__burger-nav {
+  margin-right: var(--gap);
+}
+/*# sourceMappingURL=_header.css.map */

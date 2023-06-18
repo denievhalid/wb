@@ -1,0 +1,22 @@
+.actions__list {
+  display: flex;
+  column-gap: 32px;
+}
+.actions__link {
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: var(--color-light);
+  display: flex;
+  align-items: end;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  height: 50px;
+}
+.actions__link--profile {
+  background-image: url("../assets/profile.svg");
+}
+.actions__link--basket {
+  background-image: url("../assets/basket.svg");
+}
+/*# sourceMappingURL=_actions.css.map */

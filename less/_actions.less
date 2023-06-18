@@ -1,0 +1,39 @@
+.actions {
+  &__list {
+    display: flex;
+    column-gap: var(--gap);
+
+    @media (max-width: 550px) {
+      column-gap: 16px;
+    }
+  }
+
+  &__item {
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-width: 28px;
+    min-height: 28px;
+  }
+
+  &__item--profile {
+    background-image: url("../assets/profile.svg");
+  }
+
+  &__item--basket {
+    background-image: url("../assets/basket.svg");
+  }
+
+  &__link {
+    color: var(--color-light);
+    display: flex;
+    align-items: end;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    height: 50px;
+
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+}

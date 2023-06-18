@@ -1,0 +1,13 @@
+.about__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  margin: 0 0 20px 0;
+}
+.about__descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=_about.css.map */
